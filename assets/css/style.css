@@ -1,0 +1,298 @@
+/*  ====================================================
+    Global Selector 
+    ==================================================== */
+:root {
+    --color-primary: #173F5F;
+    --color-gray: #ccc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+
+/*  ====================================================
+    Override 
+    ==================================================== */
+a {
+    text-decoration: none !important;
+}
+
+/*  ====================================================
+    SISTA Styles
+    ==================================================== */
+.sista-container {
+    padding: 0 80px;
+}
+
+@media screen and (max-width: 980px) {
+    .sista-container {
+        padding: 0 40px;
+    }
+}
+
+.sista-logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    letter-spacing: 5px;
+    color: var(--color-primary);
+}
+
+/*  ====================================================
+    Navigation
+    ==================================================== */
+#sistaMainNav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sistaMainNav .sista-nav-right ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+    #sistaMainNav .sista-nav-right ul {
+        display: none;
+    }
+}
+
+#sistaMainNav .sista-nav-right ul li a {
+    padding: 20px;
+    display: inline-block;
+    color: #000;
+    position: relative;
+}
+
+#sistaMainNav .sista-nav-right ul li a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transition: all 200ms ease;
+}
+
+#sistaMainNav .sista-nav-right ul li a:hover:before {
+    background: var(--color-primary);
+}
+
+.burger-button-container {
+    margin: 15px 0;
+    border: 0;
+    background: var(--color-gray);
+    width: 45px;
+    height: 45px;
+    padding: 17px 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 100%;
+    outline: none !important;
+    display: none;
+}
+
+.burger-button-container span {
+    width: 100%;
+    height: 1.5px;
+    background: #333;
+}
+
+@media screen and (max-width: 980px) {
+    .burger-button-container {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
