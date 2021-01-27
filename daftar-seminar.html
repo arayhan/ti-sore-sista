@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Sistem Informasi Seminar Tugas Akhir</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="/assets/img/logo/sttnf-logo.png" rel="icon">
+    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+  
+    <!-- =======================================================
+    * Template Name: Scaffold - v2.2.1
+    * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+  </head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="/"><span>SISTA</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="../assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/jadwal.html">Jadwal</a></li>
+          <li class="active"><a href="/daftar-seminar.html">Daftar Seminar</a></li>
+          <li><a href="/berita.html">Berita</a></li>
+          <li><a class="btn btn-primary text-white" href="/login.html">Masuk / Daftar</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="./">Home</a></li>
+          <li>Daftar Seminar</li>
+        </ol>
+        <h2>Form Pendaftaran Seminar TA</h2>
+        <span class="text-secondary">Pendaftaran seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari Pembimbing TA</span>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="nim">NIM</label>
+                <input type="text" class="form-control" id="nim" placeholder="011xxxxxxxx">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="nama">Nama</label>
+                <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="prodi">Prodi</label>
+                <select class="form-control" id="prodi">
+                  <option value="ti">Teknik Informatika</option>
+                  <option value="si">Sistem Informasi</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="tglseminar">Tanggal Seminar</label>
+                <input type="date" class="form-control" id="tglseminar">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="jamseminar">Jam Seminar</label>
+                <input type="time" class="form-control" id="jamseminar">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="ruangan">Ruangan</label>
+                <input type="text" class="form-control" id="ruangan">
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="judulta">Judul TA</label>
+                <textarea class="form-control" name="judulta" id="judulta" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="seminar">Seminar</label>
+                <select class="form-control" id="seminar">
+                  <option value="proposal">Proposal</option>
+                  <option value="seminar_hasil">Seminar Hasil</option>
+                  <option value="seminar_akhir">Seminar Akhir</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="pembimbing">Pembimbing</label>
+                <select class="form-control" id="pembimbing">
+                  <option value="Krishadi Nugroho, M.Si">Krishadi Nugroho, M.Si</option>
+                  <option value="Yessy Nur Handayani, S.Kom., M.TI.">Yessy Nur Handayani, S.Kom., M.TI.</option>
+                  <option value="Tifany Nabarian, S.Kom., M.T.I.">Tifany Nabarian, S.Kom., M.T.I.</option>
+                  <option value="Amalia Rahmah, S.T., M.T.">Amalia Rahmah, S.T., M.T.</option>
+                  <option value="Edo Riansyah, S.Kom.">Edo Riansyah, S.Kom.</option>
+                  <option value="Sirojul Munir, S.Si, M.Kom">Sirojul Munir, S.Si, M.Kom</option>
+                  <option value="Hilmi Abidzar Tawakal, S.T., M.Kom">Hilmi Abidzar Tawakal, S.T., M.Kom</option>
+                  <option value="Slamet Santoso, S.Kom.">Slamet Santoso, S.Kom.</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="penguji1">Penguji 1</label>
+                <select class="form-control" id="penguji1">
+                  <option value="Krishadi Nugroho, M.Si">Krishadi Nugroho, M.Si</option>
+                  <option value="Yessy Nur Handayani, S.Kom., M.TI.">Yessy Nur Handayani, S.Kom., M.TI.</option>
+                  <option value="Tifany Nabarian, S.Kom., M.T.I.">Tifany Nabarian, S.Kom., M.T.I.</option>
+                  <option value="Amalia Rahmah, S.T., M.T.">Amalia Rahmah, S.T., M.T.</option>
+                  <option value="Edo Riansyah, S.Kom.">Edo Riansyah, S.Kom.</option>
+                  <option value="Sirojul Munir, S.Si, M.Kom">Sirojul Munir, S.Si, M.Kom</option>
+                  <option value="Hilmi Abidzar Tawakal, S.T., M.Kom">Hilmi Abidzar Tawakal, S.T., M.Kom</option>
+                  <option value="Slamet Santoso, S.Kom.">Slamet Santoso, S.Kom.</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sista-text-small" for="penguji2">Penguji 2</label>
+                <select class="form-control" id="penguji2">
+                  <option value="Krishadi Nugroho, M.Si">Krishadi Nugroho, M.Si</option>
+                  <option value="Yessy Nur Handayani, S.Kom., M.TI.">Yessy Nur Handayani, S.Kom., M.TI.</option>
+                  <option value="Tifany Nabarian, S.Kom., M.T.I.">Tifany Nabarian, S.Kom., M.T.I.</option>
+                  <option value="Amalia Rahmah, S.T., M.T.">Amalia Rahmah, S.T., M.T.</option>
+                  <option value="Edo Riansyah, S.Kom.">Edo Riansyah, S.Kom.</option>
+                  <option value="Sirojul Munir, S.Si, M.Kom">Sirojul Munir, S.Si, M.Kom</option>
+                  <option value="Hilmi Abidzar Tawakal, S.T., M.Kom">Hilmi Abidzar Tawakal, S.T., M.Kom</option>
+                  <option value="Slamet Santoso, S.Kom.">Slamet Santoso, S.Kom.</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary mt-3">Daftar Seminar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-5">
+            <div class="footer-info">
+              <h3>SISTA</h3>
+              <p>
+                Jalan Lenteng Agung Raya No.20 RT.5/RW.1 Lenteng Agung, Kelurahan, RT.4/RW.1, Srengseng Sawah, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12640
+                <br><br>
+                <strong>Phone:</strong> (021) 7863191<br>
+                <strong>Website:</strong> <a href="https://nurulfikri.ac.id" target="blank">nurulfikri.ac.id</a><br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://www.instagram.com/sttterpadunf/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 offset-md-3 footer-newsletter">
+            <h4>Berita</h4>
+            <p>Kirim email kamu untuk mendapatkan informasi lebih lanjut</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Scaffold</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
